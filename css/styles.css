@@ -1,3 +1,22 @@
+/* Палітра кольорів:
+чорний колір #212121
+вторинний чорний колір #757575;
+білий колір #FFFFFF
+акцент #2196F3;
+колір футера rgba(255, 255, 255, 0.6);
+вторинний колір фону #F5F4FA;
+колір фону #F5F5F5;
+колір фону нав #FFFFFF;
+колір фону футер і мейн #2F303A; */
+
+:root {
+    --primary-text-color: #212121 ; 
+    --second-text-color: #757575;
+    --accent-color: #2196F3 ;
+}
+
+/* Logo */
+
 .logo {
     position: absolute;
     width: 145px;
@@ -9,5 +28,72 @@
     font-size: 26px;
     line-height: 31px;
     color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Head */
+
+.head {
+    background-color: ##FFFFFF;
+}
+
+/* Navigation */
+
+.site-nav-lists {
+    color: var(--primary-text-color)
+}
+
+.site-nav-lists:hover,
+.site-nav-lists:focus {
+    color: var(--accent-color)
+}
+
+.auth-nav-lists {
+    color: var(--second-text-color)
+}
+
+.auth-nav-lists:hover,
+.auth-nav-lists:focus {
+    color: var(--accent-color)
+}
+
+.site-nav .site-nav-lists.current {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background: #2F303A
+}
+
+/* Button */
+
+.button {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+/* Section */
+
+.section {
+
+}
+
+.section-title {
+    color: var(--primary-text-color)
+}
+
+/* Feature */
+
+.feature-list {
+
+}
+
+.title {
+    color: var(--primary-text-color)
 }
 
