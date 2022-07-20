@@ -18,15 +18,6 @@
 /* Logo */
 
 .logo {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
     color: #2196F3;
 }
 
@@ -34,10 +25,9 @@ ul {
     list-style: none;
 }
 
-/* Head */
-
-.head {
-    background-color: ##FFFFFF;
+body {
+    font-family: Roboto;
+    color: var(--primary-text-color);
 }
 
 /* Navigation */
@@ -97,3 +87,21 @@ ul {
     color: var(--primary-text-color)
 }
 
+.text {
+    color: var(--second-text-color);
+}
+
+/* Team */
+
+.team {
+    background-color: #F5F5F5;;
+}
+
+/* Footer */
+.contacts {
+    background-color: #2F303A;
+}
+
+.contacts-link {
+    color: #FFFFFF;
+}
