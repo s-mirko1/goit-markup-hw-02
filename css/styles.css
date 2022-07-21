@@ -26,8 +26,12 @@ ul {
 }
 
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
+}
+
+.link {
+    text-decoration: none;
 }
 
 /* Navigation */
