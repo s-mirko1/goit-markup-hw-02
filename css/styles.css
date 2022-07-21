@@ -19,6 +19,7 @@
     --secondary-white-color:#F5F5F5;;
     --third-white-color: #F5F4FA;
     --footer-text-color: rgba(255, 255, 255, 0.6);
+    --black-color: #000000;
 }
 
 /* Logo */
@@ -40,6 +41,12 @@ body {
     text-decoration: none;
 }
 
+.colortext {
+    color: var(--black-color);
+}
+.colortext_footer {
+    color: var(--white-color);
+}
 /* Navigation */
 
 .site-nav {
@@ -116,6 +123,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--white-color);
     background-color: var(--accent-color);
+    cursor: pointer;
     
 }
 
@@ -150,7 +158,6 @@ body {
 }
 
 .benefits-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;    
     letter-spacing: 0.03em;
@@ -209,7 +216,6 @@ body {
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
